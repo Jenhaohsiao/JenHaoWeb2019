@@ -13,6 +13,7 @@
 
 .side-bar-container {
     height: 100vh;
+
 }
 
 .content-container {
@@ -21,9 +22,28 @@
 
 .content-sub-container {
     background-color: rgb(30, 160, 99);
-    height: 500px;
+    height: 100vh;
+}
+
+#bar-section {
+    position: fixed;
+    /* width: 100%; */
+}
+
+.word-wrap-break {
+    word-wrap: break-all;
+    color: #ffffff;
+
+}
+
+#name-title {
+    color: #ffffff;
+}
+
+#name-subtitle {
+    color: #ffffff;
 }
 
 #nav-bar {
-    position: fixed;
+    /* position: fixed; */
 }
