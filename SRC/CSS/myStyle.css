@@ -1,4 +1,29 @@
 .body-setting {
     padding: 0;
     margin: 0;
+    background-color: rgb(68, 83, 83);
+    position: relative;
+}
+
+.main-container {
+    height: 100vh;
+    margin: 0 150px;
+
+}
+
+.side-bar-container {
+    height: 100vh;
+}
+
+.content-container {
+    background-color: rgb(206, 195, 45);
+}
+
+.content-sub-container {
+    background-color: rgb(30, 160, 99);
+    height: 500px;
+}
+
+#nav-bar {
+    position: fixed;
 }
