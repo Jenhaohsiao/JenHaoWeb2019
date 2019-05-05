@@ -24,6 +24,7 @@
      height: 500px;
      background-color: rgba(124, 136, 133, 0.411);
      overflow: auto;
+     scroll-behavior: smooth;
 
  }
 

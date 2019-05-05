@@ -30,5 +30,7 @@ function scrollToPoint(_elementID) {
     contectSection.scroll({
         top: elementPoint,
         behavior: "smooth"
-    });
+    }, 2000);
+
+    // contectSection.scrollTop = elementPoint;
 }
