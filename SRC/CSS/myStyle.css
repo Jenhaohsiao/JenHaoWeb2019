@@ -24,7 +24,7 @@
 
  .content-container {
      height: 80vh;
-     background-color: rgba(124, 136, 133, 0.411);
+     background-color: #cdcdcd;
      overflow: auto;
      scroll-behavior: smooth;
 
@@ -38,12 +38,65 @@
      /* width: 100%; */
  }
 
- .word-wrap-break {
-     word-wrap: break-all;
-     color: #ffffff;
+ /* ================== Skill Section =================== */
+
+ .skill_section {
+     padding: 10px 0 30px 0;
+ }
+
+ .skill_container {
+     text-align: center;
+     padding: 10px 0;
+     min-height: 150px;
+ }
+
+ .skill_container p {
+     position: absolute;
+     left: 0;
+     right: 0;
+     margin-left: auto;
+     margin-right: auto;
+     bottom: 0;
+     font-weight: 300;
+     font-size: 18px;
+ }
+
+ .skill_container img {
+     max-width: 90px;
+     padding: 10px;
+     margin: auto;
+     -webkit-filter: grayscale(100%);
+     /* Chrome, Safari, Opera */
+     filter: grayscale(100%);
+ }
+
+ .skill_container img:hover {
+     -webkit-animation: mymove 1s;
+     /* Chrome, Safari, Opera */
+     animation: mymove 0.7s;
+     animation-fill-mode: forwards;
 
  }
 
+ /* Chrome, Safari, Opera */
+
+ @-webkit-keyframes mymove {
+     100% {
+         -webkit-filter: none;
+         filter: none;
+     }
+ }
+
+ /* Standard syntax */
+
+ @keyframes mymove {
+     100% {
+         -webkit-filter: none;
+         filter: none;
+     }
+ }
+
+ /* ================== Skill Section end=================== */
 
 
  #name-title {
@@ -54,26 +107,31 @@
      color: #ffffff;
  }
 
- /* Right Side Content Parts */
+ /* ================== Right Side Content Parts ================== */
 
  #hero-section {
-     height: 100vh;
+     min-height: 100vh;
+     height: auto;
  }
 
  #projects-section {
-     height: 100vh;
+     min-height: 100vh;
+     height: auto;
  }
 
  #skills-section {
-     height: 100vh;
+     min-height: 100vh;
+     height: auto;
  }
 
  #experience-section {
-     height: 100vh;
+     min-height: 100vh;
+     height: auto;
  }
 
  #more-section {
-     height: 100vh;
+     min-height: 100vh;
+     height: auto;
  }
 
  #contact-section i {
@@ -82,4 +140,4 @@
  }
 
 
- /* Right Side Content Parts -- end*/
+ /* ================== Right Side Content Parts end ================== */
