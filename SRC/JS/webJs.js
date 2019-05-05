@@ -27,10 +27,10 @@ function scrollToPoint(_elementID) {
     var contectSection = document.getElementById('contect-section');
     console.log("elementPoint:", elementPoint);
 
-    contectSection.scroll({
-        top: elementPoint,
-        behavior: "smooth"
-    }, 2000);
+    // contectSection.scroll({
+    //     top: elementPoint,
+    //     behavior: "smooth"
+    // }, 2000);
 
     // contectSection.scrollTop = elementPoint;
 }
