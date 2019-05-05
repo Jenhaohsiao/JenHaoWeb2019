@@ -19,6 +19,35 @@ window.addEventListener("scroll", function () {
 
 })
 
+window.addEventListener = function () {
+    setWidthForScrollBarHide()
+};
+
+window.onresize = function () {
+
+    setWidthForScrollBarHide();
+
+}
+
+function setWidthForScrollBarHide() {
+
+    var scrollBarContainer = document.getElementById('scroll-bar-container');
+    var mainContainer = document.getElementById('content-container');
+
+
+    var scrollBarContainerWidth = scrollBarContainer.offsetWidth;
+    var mainContainerWidth = mainContainer.offsetWidth
+
+
+    var _width = "width:" + (scrollBarContainerWidth + 15) + "px"
+
+    mainContainer.setAttribute("style", _width.toString());
+
+    mainContainer.style.width = mainContainerWidth;
+
+}
+
+
 
 function scrollToPoint(_elementID) {
 
