@@ -1,49 +1,76 @@
-.body-setting {
-    padding: 0;
-    margin: 0;
-    background-color: rgb(68, 83, 83);
-    position: relative;
-}
+ .main-container {
 
-.main-container {
-    height: 100vh;
-    margin: 0 150px;
+     height: 100vh;
+     margin: 0 8%;
+ }
 
-}
+ #hero-section {
+     height: 300px;
+     background-color: #ffa43c;
+     background-image: url("../images/heroSection.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
 
-.side-bar-container {
-    height: 100vh;
+ }
 
-}
+ #content-main-container {
 
-.content-container {
-    background-color: rgb(206, 195, 45);
-}
+     padding: 100px 0 0 0;
+ }
 
-.content-sub-container {
-    background-color: rgb(30, 160, 99);
-    height: 100vh;
-}
+ .side-bar-container {}
 
-#bar-section {
-    position: fixed;
-    /* width: 100%; */
-}
+ .content-container {
+     height: 500px;
+     background-color: rgba(124, 136, 133, 0.411);
+     overflow: auto;
 
-.word-wrap-break {
-    word-wrap: break-all;
-    color: #ffffff;
+ }
 
-}
 
-#name-title {
-    color: #ffffff;
-}
+ .scrollspy-example {}
 
-#name-subtitle {
-    color: #ffffff;
-}
+ #bar-section {
+     position: fixed;
+     /* width: 100%; */
+ }
 
-#nav-bar {
-    /* position: fixed; */
-}
+ .word-wrap-break {
+     word-wrap: break-all;
+     color: #ffffff;
+
+ }
+
+
+
+ #name-title {
+     color: #ffffff;
+ }
+
+ #name-subtitle {
+     color: #ffffff;
+ }
+
+ /* Right Side Content Parts */
+
+ #projects-section {
+     height: 100vh;
+ }
+
+ #skills-section {
+     height: 100vh;
+ }
+
+ #experience-section {
+     height: 100vh;
+ }
+
+ #more-section {
+     height: 100vh;
+ }
+
+ #contact-section {
+     height: 100vh;
+ }
+
+ /* Right Side Content Parts -- end*/

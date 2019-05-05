@@ -1,107 +1,118 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Jen-Hao Hsiao 2019</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="./SRC/CSS/myStyle.css" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JenHao Developer</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="SRC/CSS/myStyle.css">
+    <script src="SRC/JS/webJs.js"></script>
 
 </head>
 
-<body class="body-setting" data-spy="scroll" data-target="#nav-bar" data-offset="50">
-    <div class="main-container">
+<body>
 
-        <div class="row">
-            <div class="col-sm-3 side-bar-container">
-                <div id="bar-section">
-                    <div class="word-wrap-break">
-                        <h1 id="name-title">Jen-Hao Hsiao</h1>
-                    </div>
-
-                    <div class="word-wrap-break">
-                        <h6 id="name-subtitle"> Website & Mobile APPs Developer</h6>
-
-                    </div>
-
-                    <div id="nav-bar" class="list-group">
-                        <a class="list-group-item list-group-item-action" href="#projects-section">Projects</a>
-                        <a class="list-group-item list-group-item-action" href="#skills-section">Skills</a>
-                        <a class="list-group-item list-group-item-action" href="#experience-section">Experience</a>
-                        <a class="list-group-item list-group-item-action" href="#more-section">More</a>
-                        <a class="list-group-item list-group-item-action" href="#contact-section">Contact</a>
-                    </div>
-
+    <div id="hero-section">
+        <div class="main-container">
+            <div class="row" id="content-main-container">
+                <div class="col-sm-3" id="spy">
+                    <ul class="nav nav-pills flex-column">
+                        <li class="nav-item"><a onclick="scrollToPoint('projects-section')" class="nav-link active"
+                                href="#projects-section">First Section</a></li>
+                        <li class="nav-item"><a onclick="scrollToPoint('skills-section')" class="nav-link"
+                                href="#skills-section">Second Section</a></li>
+                        <li class="nav-item"><a onclick="scrollToPoint('experience-section')" class="nav-link"
+                                href="#experience-section">Third Section</a></li>
+                        <li class="nav-item"><a onclick="scrollToPoint('more-section')" class="nav-link"
+                                href="#more-section">Fourth Section</a></li>
+                    </ul>
                 </div>
-            </div>
-            <div class="col-sm-9 content-container">
-
-                <div data-spy="scroll" data-target="#nav-bar" data-offset="1" class="scrollspy-example">
-                    <div class="content-sub-container">
-                        <h4 id="projects-section">Projects</h4>
+                <div class="col-sm-9 content-container" id="contect-section" data-spy="scroll" data-target="#spy">
+                    <div id="projects-section">
+                        <h2>First Section</h2>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum asperiores, fuga nesciunt
-                            recusandae
+                            During Compile time, the compiler converts the source code into Microsoft Intermediate
+                            Language (MSIL). Microsoft Intermediate Language (MSIL) are CPU-Independent set of
+                            instructions that can be effectively converted to the native code. Now with the help of JIT
+                            compiler, IL code can be executed on any computer architecture supported by the JIT
+                            compiler.
                         </p>
                     </div>
-
-                    <div class="content-sub-container">
-                        <h4 id="skills-section">Skills</h4>
+                    <div id="skills-section">
+                        <h2>Second Section</h2>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum asperiores, fuga nesciunt
-                            recusandae
+                            During Compile time, the compiler converts the source code into Microsoft Intermediate
+                            Language (MSIL). Microsoft Intermediate Language (MSIL) are CPU-Independent set of
+                            instructions that can be effectively converted to the native code. Now with the help of JIT
+                            compiler, IL code can be executed on any computer architecture supported by the JIT
+                            compiler.
                         </p>
                     </div>
-
-                    <div class="content-sub-container">
-                        <h4 id="experience-section">Experience</h4>
+                    <div id="experience-section">
+                        <h2>Third Section</h2>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum asperiores, fuga nesciunt
-                            recusandae
+                            During Compile time, the compiler converts the source code into Microsoft Intermediate
+                            Language (MSIL). Microsoft Intermediate Language (MSIL) are CPU-Independent set of
+                            instructions that can be effectively converted to the native code. Now with the help of JIT
+                            compiler, IL code can be executed on any computer architecture supported by the JIT
+                            compiler.
                         </p>
                     </div>
-
-                    <div class="content-sub-container">
-                        <h4 id="more-section">More</h4>
+                    <div id="more-section">
+                        <h2>Fourth Section</h2>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum asperiores, fuga nesciunt
-                            recusandae
+                            During Compile time, the compiler converts the source code into Microsoft Intermediate
+                            Language (MSIL). Microsoft Intermediate Language (MSIL) are CPU-Independent set of
+                            instructions that can be effectively converted to the native code. Now with the help of JIT
+                            compiler, IL code can be executed on any computer architecture supported by the JIT
+                            compiler.
+                        </p>
+                        <p>
+                            During Compile time, the compiler converts the source code into Microsoft Intermediate
+                            Language (MSIL). Microsoft Intermediate Language (MSIL) are CPU-Independent set of
+                            instructions that can be effectively converted to the native code. Now with the help of JIT
+                            compiler, IL code can be executed on any computer architecture supported by the JIT
+                            compiler.
+                        </p>
+                        <p>
+                            During Compile time, the compiler converts the source code into Microsoft Intermediate
+                            Language (MSIL). Microsoft Intermediate Language (MSIL) are CPU-Independent set of
+                            instructions that can be effectively converted to the native code. Now with the help of JIT
+                            compiler, IL code can be executed on any computer architecture supported by the JIT
+                            compiler.
+                        </p>
+                        <p>
+                            During Compile time, the compiler converts the source code into Microsoft Intermediate
+                            Language (MSIL). Microsoft Intermediate Language (MSIL) are CPU-Independent set of
+                            instructions that can be effectively converted to the native code. Now with the help of JIT
+                            compiler, IL code can be executed on any computer architecture supported by the JIT
+                            compiler.
                         </p>
                     </div>
-
-                    <div class="content-sub-container">
-                        <h4 id="contact-section">Contact</h4>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum asperiores, fuga nesciunt
-                            recusandae
-                        </p>
-                    </div>
-
                 </div>
-
             </div>
         </div>
-
 
     </div>
 
 
+
+    <!-- ======Script For BootScript============================================================================================= -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+    <!-- ======Script For BootScript--end============================================================================================= -->
+
 </body>
-
-<!-- For BootsStrap4 -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
-
-<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
-
-
-
-
-<script src="./SRC/JS/webJs.js"></script>
 
 </html>
