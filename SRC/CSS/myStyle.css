@@ -1,155 +1,154 @@
- .main-container {
+.main-container {
 
-     height: 100vh;
-     margin: 0 8%;
- }
+    height: 100vh;
+    margin: 0 8%;
+}
 
- #background-img {
-     height: 300px;
-     background-color: #a79dc1;
-     /* background-image: url("../images/heroSection.jpg"); */
-     background-repeat: no-repeat;
-     background-size: cover;
+#background-img {
+    height: 300px;
+    background-color: #a79dc1;
+    /* background-image: url("../images/heroSection.jpg"); */
+    background-repeat: no-repeat;
+    background-size: cover;
 
- }
-
-
-
- #content-main-container {
-
-     padding: 30px 0 0 0;
- }
-
- .side-bar-container {}
-
- .content-container {
-     height: 80vh;
-     background-color: #cdcdcd;
-     overflow: auto;
-     scroll-behavior: smooth;
-
-
- }
-
-
- .scrollspy-example {}
-
- #bar-section {
-     position: fixed;
-     /* width: 100%; */
- }
-
- /* ================== Skill Section =================== */
-
- .skill_section {
-     padding: 10px 0 30px 0;
- }
-
- .skill_container {
-     text-align: center;
-     padding: 10px 0;
-     min-height: 150px;
- }
-
- .skill_container p {
-     position: absolute;
-     left: 0;
-     right: 0;
-     margin-left: auto;
-     margin-right: auto;
-     bottom: 0;
-     font-weight: 300;
-     font-size: 18px;
- }
-
- .skill_container img {
-     max-width: 90px;
-     padding: 10px;
-     margin: auto;
-     -webkit-filter: grayscale(100%);
-     /* Chrome, Safari, Opera */
-     filter: grayscale(100%);
- }
-
- .skill_container img:hover {
-     -webkit-animation: mymove 1s;
-     /* Chrome, Safari, Opera */
-     animation: mymove 0.7s;
-     animation-fill-mode: forwards;
-
- }
-
- /* Chrome, Safari, Opera */
-
- @-webkit-keyframes mymove {
-     100% {
-         -webkit-filter: none;
-         filter: none;
-     }
- }
-
- /* Standard syntax */
-
- @keyframes mymove {
-     100% {
-         -webkit-filter: none;
-         filter: none;
-     }
- }
-
- /* ================== Skill Section end=================== */
-
-
- #name-title {
-     color: #ffffff;
- }
-
- #name-subtitle {
-     color: #ffffff;
- }
-
- /* ================== Right Side Content Parts ================== */
-
- #hero-section {
-     min-height: 100vh;
-     height: auto;
- }
-
- #projects-section {
-     min-height: 100vh;
-     height: auto;
- }
-
- #skills-section {
-     min-height: 100vh;
-     height: auto;
- }
-
- #experience-section {
-     min-height: 100vh;
-     height: auto;
- }
-
- #more-section {
-     min-height: 100vh;
-     height: auto;
- }
-
- #contact-section i {
-     color: #17077b;
-     font-size: 30px;
- }
+}
 
 
 
+#content-main-container {
 
- /* ================== Right Side Content Parts end ================== */
+    padding: 30px 0 0 0;
+}
 
- .hideScrollbar::-webkit-scrollbar {
-     width: 0 !important
- }
+.side-bar-container {}
 
- .hideScrollbar {
-     overflow: -moz-scrollbars-none;
-     -ms-overflow-style: none;
- }
+.content-container {
+    height: 80vh;
+    background-color: #cdcdcd;
+    overflow: auto;
+    scroll-behavior: smooth;
+
+
+}
+
+
+.scrollspy-example {}
+
+#bar-section {
+    position: fixed;
+    /* width: 100%; */
+}
+
+/* ================== Skill Section =================== */
+
+.skill_section {
+    padding: 10px 0 30px 0;
+}
+
+.skill_container {
+    text-align: center;
+    padding: 10px 0;
+    min-height: 150px;
+}
+
+.skill_container p {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 0;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.skill_container img {
+    max-width: 90px;
+    padding: 10px;
+    margin: auto;
+    -webkit-filter: grayscale(100%);
+    /* Chrome, Safari, Opera */
+    filter: grayscale(100%);
+}
+
+.skill_container img:hover {
+    -webkit-animation: mymove 1s;
+    /* Chrome, Safari, Opera */
+    animation: mymove 0.7s;
+    animation-fill-mode: forwards;
+
+}
+
+/* Chrome, Safari, Opera */
+
+@-webkit-keyframes mymove {
+    100% {
+        -webkit-filter: none;
+        filter: none;
+    }
+}
+
+/* Standard syntax */
+
+@keyframes mymove {
+    100% {
+        -webkit-filter: none;
+        filter: none;
+    }
+}
+
+/* ================== Skill Section end=================== */
+
+
+#name-title {
+    color: #ffffff;
+}
+
+#name-subtitle {
+    color: #ffffff;
+}
+
+/* ================== Right Side Content Parts ================== */
+
+#hero-section {
+    min-height: 100vh;
+    height: auto;
+}
+
+#projects-section {
+    min-height: 100vh;
+    height: auto;
+}
+
+#skills-section {
+    min-height: 100vh;
+    height: auto;
+}
+
+#experience-section {
+    min-height: 100vh;
+    height: auto;
+}
+
+#more-section {
+    min-height: 100vh;
+    height: auto;
+}
+
+#contact-section i {
+    color: #17077b;
+    font-size: 30px;
+}
+
+
+
+
+/* ================== Right Side Content Parts end ================== */
+
+.hideScrollbar::-webkit-scrollbar {
+    width: 0 !important
+}
+
+.hideScrollbar {
+    overflow: -moz-scrollbars-none;
+}
