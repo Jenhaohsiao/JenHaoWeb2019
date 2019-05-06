@@ -114,11 +114,9 @@
 #hero-section,
 #projects-section,
 #skills-section,
-#more-section {
+#experience-section {
     min-height: 100vh;
     height: auto;
-
-
 }
 
 #hero-section {
@@ -154,8 +152,6 @@
 #skills-section {}
 
 #experience-section {}
-
-#more-section {}
 
 #contact-section i {
     color: #ffffff;
