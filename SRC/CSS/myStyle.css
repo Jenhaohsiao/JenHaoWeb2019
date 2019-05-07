@@ -47,6 +47,19 @@
     /* width: 100%; */
 }
 
+/* ================== Me-Video Section =================== */
+#myVideo {
+    /* position: fixed;
+    right: 0;
+    bottom: 0; */
+    min-width: 100%;
+    min-height: 100%;
+}
+
+/* ================== Me-Video Section end =================== */
+
+
+
 /* ================== Skill Section =================== */
 
 .skill_section {
@@ -125,21 +138,22 @@
     height: auto;
 }
 
-#hero-section {
-    position: relative;
-
-    background-image: url("../images/me-section.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+#projects-section,
+#skills-section,
+#experience-section {
+    padding: 20px;
 }
 
-#hero-section div {
-
+#hero-text {
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    min-height: 90px;
+    max-height: 90px;
+    height: 20%;
+    /* padding: 5px; */
 
     font-size: 20px;
-    /* color: #9d0000; */
-    width: 80%;
-    height: 10%;
     position: absolute;
 
     top: 0;
@@ -147,11 +161,11 @@
     bottom: 0;
     left: 0;
     margin: auto;
-    /* background: #f60; */
-
-
-
+    padding: 20px 0 20px 10%
 }
+
+
+
 
 #projects-section {}
 
@@ -191,3 +205,7 @@
 }
 
 /* ================== Card Style end =============================== */
+
+div#contect-section {
+    padding: 0;
+}
