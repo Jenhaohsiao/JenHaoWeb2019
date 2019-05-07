@@ -216,3 +216,8 @@
 div#contect-section {
     padding: 0;
 }
+
+ul.navbar.fixed-bottom.bg-dark {
+    margin: 0;
+    list-style-type: none;
+}
