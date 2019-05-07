@@ -7,7 +7,7 @@
 #background-img {
     height: 300px;
     background-color: #c6945e;
-    /* background-image: url("../images/heroSection.jpg"); */
+    background-image: url("../images/houses041.jpg");
     /* background-image: url("../images/hero02.jpg"); */
 
     background-repeat: no-repeat;
@@ -152,23 +152,23 @@
 }
 
 #hero-text {
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(216, 216, 216, 0.5);
     color: #f1f1f1;
     width: 100%;
-    min-height: 90px;
-    max-height: 90px;
-    height: 20%;
+    max-height: 70px;
+    height: 15%;
     /* padding: 5px; */
 
     font-size: 20px;
     position: absolute;
+    text-align: center;
 
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
     margin: auto;
-    padding: 20px 0 20px 10%
+    padding: 10px;
 }
 
 
