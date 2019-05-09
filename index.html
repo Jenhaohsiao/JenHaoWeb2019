@@ -22,13 +22,16 @@
 
     <div id="background-img">
         <div class="main-container">
-            <div>
+            <div id="top-section">
                 <H1 id="name-title">Jen-Hao Hisao</H1>
                 <div class="clearfix">
                     <h4 id="name-subtitle" class="float-left">Website & Mobile APPs Developer</h4>
                     <div id="contact-section" class="float-right">
-                        <i class="fab fa-github-square"></i>
-                        <i class="fas fa-envelope-square"></i>
+
+                        <a href="https://github.com/Jenhaohsiao?tab=repositories" target="_blank"> <i
+                                class="fab fa-github-square"></i></a>
+                        <a href="mailto:jenhao.hsiao@gmail.com" target="_blank"><i
+                                class="fas fa-envelope-square"></i></a>
                     </div>
                 </div>
             </div>
@@ -37,32 +40,44 @@
             <div class="row" id="content-main-container">
 
                 <div class="col-sm-2 d-none d-sm-block spy">
-                    <ul class="nav nav-pills flex-column">
-                        <li class="nav-item"><a class="nav-link " href="#hero-section">Me</a></li>
-                        <li class="nav-item"><a class="nav-link " href="#projects-section">Projects</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#skills-section">Skills</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#experience-section">Experience</a></li>
-                    </ul>
+                    <nav class="navbar bg-dark navbar-dark flex-column">
+                        <ul class="navbar-nav nav-bar-style">
+                            <li class="nav-item"><a class="nav-link" href="#hero-section">Me</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#projects-section">Projects</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#skills-section">Skills</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#experience-section">Experience </a>
+                            </li>
+                        </ul>
+                    </nav>
+
+                </div>
+
+                <div class="d-block d-sm-none spy">
+                    <nav class="navbar bg-dark navbar-dark ">
+                        <ul class="navbar fixed-bottom  bg-dark ">
+                            <li class="nav-item"><a class="nav-link " href="#hero-section">Me</a></li>
+                            <li class="nav-item"><a class="nav-link " href="#projects-section">Projects</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#skills-section">Skills</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#experience-section">Experience</a></li>
+                        </ul>
+                    </nav>
                 </div>
 
 
-                <nav class="d-block d-sm-none spy">
-                    <ul class="navbar fixed-bottom  bg-dark ">
-                        <li class="nav-item"><a class="nav-link " href="#hero-section">Me</a></li>
-                        <li class="nav-item"><a class="nav-link " href="#projects-section">Projects</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#skills-section">Skills</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#experience-section">Experience</a></li>
-                    </ul>
-                </nav>
 
                 <div class="col-sm-10 content-container hideScrollbar" id="contect-section" data-spy="scroll"
                     data-target=".spy">
 
                     <div id="hero-section">
                         <video autoplay muted loop id="myVideo">
-                            <!-- <source src="SRC/video/heroVideo2.mp4" type="video/mp4"> -->
-                            <source src="SRC/video/codingVideo.mp4" type="video/mp4">
-
+                            <source src="SRC/video/heroVideo2.mp4" type="video/mp4">
+                            <!-- <source src="SRC/video/codingVideo.mp4" type="video/mp4"> -->
                         </video>
 
 
@@ -85,7 +100,7 @@
                                             alt="...">
 
                                         <div class="clearfix">
-                                            <p class="card-text">
+                                            <p class="project-content">
                                                 A rug industry web-based application. The functionalities include
                                                 customer, staff, inventory, accountant, sale management, etc.
                                             </p>
@@ -112,7 +127,8 @@
                                         <img src="SRC/images/project/project-SOH.jpg" class="card-img-top" alt="...">
 
                                         <div class="clearfix">
-                                            <p class="card-text">
+                                            <p class="project-content">
+
                                                 A mobile app allowing
                                                 attendees to easily browse participating companies in their
                                                 respective cities, map out your route to them
@@ -141,7 +157,8 @@
                                         <img src="SRC/images/project/project-personal2018.jpg" class="card-img-top"
                                             alt="...">
                                         <div class="clearfix">
-                                            <p class="card-text">
+                                            <p class="project-content">
+
                                                 My personal info and 2017-2018 works collections.
                                             </p>
 
@@ -169,12 +186,12 @@
                     <div id="skills-section">
                         <h2>Skill Set</h2>
 
-                        <div class="btn-group skill-set-button" role="group" aria-label="Skill sets">
+                        <!-- <div class="btn-group skill-set-button" role="group" aria-label="Skill sets">
                             <button type="button" class="btn btn-secondary">All</button>
                             <button type="button" class="btn btn-secondary">Front-End</button>
                             <button type="button" class="btn btn-secondary">Back-End</button>
                             <button type="button" class="btn btn-secondary">Others</button>
-                        </div>
+                        </div> -->
 
                         <div class=" skill_section">
 
@@ -327,45 +344,91 @@
 
                     <div id="experience-section">
                         <h2>Experience</h2>
-                        <p>
-                            May 2018 - Present
-                        </p>
-                        <p>
-                            Full Stack Web Developer (MEAN stack)
-                            RugSimple - Toronto, ON
-                            • Building a rug business system by MongoDB, NodeExpress, NodeJs and AngularJs.
-                            • Creating UI by AngularJS Material and CSS.
-                            • Version control by source-tree and Github.
-                        </p>
-                        <p>
-                            Aug 2017 – Feb 2018
-                        </p>
-                        <p>
-                            Junior Front-end and Mobile Developer (co-op)
-                            Crowdlinker Inc. Toronto, ON
-                            • Implemented one iOS Mobile AR navigation APP and published.
-                            • Participated in several websites front-end development using
-                            HTML, CSS, JavaScript, bootstrap and WordPress.
 
-                        </p>
-                        <p>
-                            Jan 2017 – Aug 2017
-                        </p>
-                        <p>
-                            iOS App and Game Developer (part-time volunteer)
-                            SomoPlay Inc. Toronto, ON
-                            • Developed an iOS games and applications in Swift
-                            • Used UIKit, SpriteKit and CoreData to meet project requirements
-                        </p>
+                        <div class="row experience-sub-section">
+                            <div class="col-12 col-sm-4">
+                                <img class="experience-image" src="SRC/images/experience/experience-rupSimple.jpg"
+                                    alt="npm">
+                            </div>
+                            <div class="col-12 col-sm-8">
+                                <h3>Full Stack Web Developer (MEAN stack)</h3>
 
-                        <p>
-                            Feb 2018
-                        </p>
-                        <p>
-                            Mobile APP Design & Development
-                            Post Secondary Graduate Certificate Lambton College, Toronto, ON
 
-                        </p>
+                                <small class="text-muted"> May 2018 - Present</small>
+
+                                <h4>RugSimple - Toronto, ON</h4>
+                                <p>
+
+                                    Building a rug business system by MongoDB, NodeExpress, NodeJs and
+                                    AngularJs.Creating UI by AngularJS Material and CSS.
+                                    Version control by source-tree and Github.
+                                </p>
+                            </div>
+
+                        </div>
+
+                        <div class="row experience-sub-section">
+                            <div class="col-12 col-sm-4">
+                                <img class="experience-image" src="SRC/images/experience/experience-crowdlinker.jpg"
+                                    alt="npm">
+                            </div>
+                            <div class="col-12 col-sm-8">
+                                <h3>Junior Front-end and Mobile Developer (co-op)</h3>
+
+
+                                <small class="text-muted"> Aug 2017 – Feb 2018</small>
+
+                                <h4>Crowdlinker Inc. Toronto, ON</h4>
+                                <p>
+                                    Implemented one iOS Mobile AR navigation APP and published.
+                                    Participated in several websites front-end development using
+                                    HTML, CSS, JavaScript, bootstrap and WordPress.
+                                </p>
+                            </div>
+
+                        </div>
+
+
+                        <div class="row experience-sub-section">
+                            <div class="col-12 col-sm-4">
+                                <img class="experience-image" src="SRC/images/experience/experience-somoplay.jpg"
+                                    alt="npm">
+                            </div>
+                            <div class="col-12 col-sm-8">
+                                <h3>iOS App and Game Developer (part-time volunteer)</h3>
+
+
+                                <small class="text-muted"> Jan 2017 – Aug 2017</small>
+
+                                <h4>SomoPlay Inc. Toronto, ON</h4>
+                                <p>
+                                    Developed an iOS games and applications in Swift. Used UIKit, SpriteKit and CoreData
+                                    to meet project requirements
+                                </p>
+                            </div>
+
+                        </div>
+
+
+
+                        <div class="row experience-sub-section">
+                            <div class="col-12 col-sm-4">
+                                <img class="experience-image" src="SRC/images/experience/experience-lambton.jpg"
+                                    alt="npm">
+                            </div>
+                            <div class="col-12 col-sm-8">
+                                <h3>Post Secondary Graduate Certificate</h3>
+
+
+                                <small class="text-muted"> Feb 2018</small>
+
+                                <h4>Lambton College, Toronto, ON</h4>
+                                <p>
+                                    Mobile APP Design & Development
+                                </p>
+                            </div>
+
+                        </div>
                     </div>
 
                 </div>
