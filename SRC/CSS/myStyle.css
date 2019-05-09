@@ -214,7 +214,10 @@ a.nav-link-sytle.active {
 
 #projects-section {}
 
-#skills-section {}
+#skills-section {
+    color: #ffffff;
+    background-color: rgb(72, 121, 156)
+}
 
 #experience-section {}
 
