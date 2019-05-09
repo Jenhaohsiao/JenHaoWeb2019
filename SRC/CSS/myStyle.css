@@ -6,8 +6,8 @@
 
 #background-img {
     height: 100vh;
-    background-color: #c6945e;
-    background-image: url("../images/houses041.jpg");
+    /* background-color: #c6945e; */
+    /* background-image: url("../images/houses041.jpg"); */
     /* background-image: url("../images/hero02.jpg"); */
 
     background-repeat: no-repeat;
@@ -23,15 +23,11 @@
     overflow: -moz-scrollbars-none;
 }
 
-ß #content-main-container {
-
-    padding: 30px 0 0 0;
-}
 
 .side-bar-container {}
 
 .content-container {
-    height: 90vh;
+    height: 100vh;
     background-color: #ffffff;
     overflow: auto;
     scroll-behavior: smooth;
@@ -124,28 +120,30 @@ a.nav-link-sytle.active {
 }
 
 .skill_container img:hover {
-    -webkit-animation: mymove 1s;
+    -webkit-animation: view-icon 0.5s;
     /* Chrome, Safari, Opera */
-    animation: mymove 0.7s;
+    animation: view-icon 0.5s;
     animation-fill-mode: forwards;
 
 }
 
 /* Chrome, Safari, Opera */
 
-@-webkit-keyframes mymove {
+@-webkit-keyframes view-icon {
     100% {
         -webkit-filter: none;
         filter: none;
     }
+
 }
 
 /* Standard syntax */
 
-@keyframes mymove {
+@keyframes view-icon {
     100% {
         -webkit-filter: none;
         filter: none;
+
     }
 }
 
@@ -168,6 +166,10 @@ a.nav-link-sytle.active {
 
 #hero-section {
     background-color: #000000;
+    background-image: url("../images/hero-big.jpg");
+
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #hero-section,
@@ -185,14 +187,13 @@ a.nav-link-sytle.active {
 }
 
 #hero-text {
-    background: rgba(114, 114, 114, 0.5);
+    /* background: rgba(114, 114, 114, 0.5); */
     color: #ffffff;
     width: 100%;
     max-height: 70px;
     height: 15%;
     /* padding: 5px; */
 
-    font-size: 20px;
     position: absolute;
     text-align: center;
 
@@ -201,7 +202,7 @@ a.nav-link-sytle.active {
     bottom: 0;
     left: 0;
     margin: auto;
-    padding: 10px;
+    padding: 25px;
 }
 
 
@@ -216,6 +217,10 @@ a.nav-link-sytle.active {
 #contact-section i {
     color: #ffffff;
     font-size: 30px;
+    text-align: center;
+    margin: auto;
+    padding-left: 20px;
+
 }
 
 .project-content {
