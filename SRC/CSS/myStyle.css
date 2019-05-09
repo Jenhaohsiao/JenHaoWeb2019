@@ -240,7 +240,7 @@ a.nav-link-sytle.active {
     display: inline-block;
     margin: 20px auto;
     max-width: 450px;
-    background-color: rgb(72, 138, 150);
+    background-color: rgba(96, 143, 152, 0.63);
     color: #ffffff;
 }
 
