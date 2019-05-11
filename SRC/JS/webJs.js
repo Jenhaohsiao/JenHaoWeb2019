@@ -47,11 +47,13 @@ function getSection(_position) {
         }
 
         var windowsHeight50 = windowsHeight * 0.5
-        if (windowsHeight10 <= 500) {
-            windowsHeight10 = 500
+        if (windowsHeight10 <= 300) {
+            windowsHeight10 = 300
         }
 
         if ((_position <= allSections[i].offsetTop + windowsHeight50) && (_position >= allSections[i].offsetTop - windowsHeight10)) {
+
+
             return allSections[i].offsetTop
         }
     }
@@ -105,9 +107,9 @@ function addAnimation(element, animation) {
         }
         return _section
     })
+    element.classList.remove('hidden');
 
     if (!hasClass(element, animation)) {
-        element.classList.remove('hidden');
         element.classList.add(animation);
     }
 
