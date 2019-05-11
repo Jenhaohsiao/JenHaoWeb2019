@@ -31,14 +31,16 @@
     background-color: #ffffff;
     overflow: auto;
     scroll-behavior: smooth;
-
-
 }
 
 
 #bar-section {
     position: fixed;
     /* width: 100%; */
+}
+
+.hidden {
+    visibility: hidden;
 }
 
 /* ================== Typing =================== */
@@ -193,10 +195,7 @@ a.nav-link-sytle.active {
 #hero-text {
     /* background: rgba(114, 114, 114, 0.5); */
     color: #ffffff;
-    width: 100%;
-    max-height: 70px;
-    height: 15%;
-    /* padding: 5px; */
+    height: 20%;
 
     position: absolute;
     text-align: center;
@@ -206,7 +205,7 @@ a.nav-link-sytle.active {
     bottom: 0;
     left: 0;
     margin: auto;
-    padding: 25px;
+    padding: 30px;
 }
 
 
@@ -226,7 +225,7 @@ a.nav-link-sytle.active {
     font-size: 30px;
     text-align: center;
     margin: auto;
-    padding-left: 20px;
+    padding: 5px 0 5px 10px;
 
 }
 
@@ -290,3 +289,12 @@ ul.navbar.fixed-bottom.bg-dark {
 }
 
 /* ================== experience section end =============================== */
+
+a.nav-link {
+    color: #bababa;
+    padding: 8px;
+}
+
+a.nav-link.active {
+    color: #ffffff;
+}
