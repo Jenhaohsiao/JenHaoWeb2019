@@ -296,5 +296,7 @@ a.nav-link {
 }
 
 a.nav-link.active {
-    color: #ffffff;
+    color: #000000;
+    /* background-color: #ffffff;
+    border-radius: 10px; */
 }
